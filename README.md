@@ -100,7 +100,7 @@ enum4linux 10.10.10.125
 
 * `smbclient`
 
-	**NOTE: DEPENDING ON THE VERSION OF SMBCLIENT YOU ARE USING, you may need to SPECIFY the use of S<B version 1 or SMB version 2. You can dp this with `-m SMB2`. Older versions of SMBclient (latest being 4.10 at the time of writing) use SMB1 _by default_.**
+	**NOTE: DEPENDING ON THE VERSION OF SMBCLIENT YOU ARE USING, you may need to SPECIFY the use of SMB version 1 or SMB version 2. You can dp this with `-m SMB2`. Older versions of SMBclient (latest being 4.10 at the time of writing) use SMB1 _by default_.**
 
 	You can use `smbclient` to look through files shared with SMB. To _list_ available shares:
 
